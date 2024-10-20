@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Registration</title>
+  <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+  <div class="registration-form">
+    <h2>Register</h2>
+    <form id="registerForm" method="post" action="/register">
+      <label for="userId">UserID:</label>
+      <input type="text" id="userId" name="userId" required>
+      
+      <label for="mobileNumber">Mobile Number:</label>
+      <input type="tel" id="mobileNumber" name="mobileNumber" required>
+      
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      
+      <button type="submit">Register</button>
+    </form>
+  </div>
+  <script src="../static/scripts.js"></script>
+</body>
+</html>
